@@ -1,0 +1,9 @@
+.whiteboard {
+  margin: auto;
+  width: 75%;
+  height: 900px;
+
+  @media screen and (max-width: 768px) {
+    width: 100%;
+  }
+}
