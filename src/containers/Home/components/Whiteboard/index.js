@@ -15,7 +15,9 @@ const Whiteboard = ({ data }) => {
           width="100%"
           height="100%"
           allow="microphone; camera"
-          src={`https://app.learncube.com/vc/room/class-na-snapask-test-99893-tjmcubarwhvg/`}
+          src={`https://app.learncube.com/api/virtual-classroom/class/start/?pub_key=${pubKey}&room_token=${roomToken}&userid=${
+            data.userID
+          }`}
         />
       )}
     </div>
