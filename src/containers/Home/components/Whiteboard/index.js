@@ -6,7 +6,7 @@ const cx = classnames.bind(style);
 
 const Whiteboard = ({ data }) => {
   const pubKey = data.publicKey;
-  const roomToken = data.roomTokenroomToken;
+  const roomToken = data.roomToken;
 
   return (
     <div className={cx("whiteboard")}>
